@@ -6,7 +6,9 @@
   width: 100%; }
   .site-navbar .container-fluid {
     padding-left: 7rem;
-    padding-right: 7rem; }
+    padding-right: 7rem; 
+    position: fixed;
+    background: rgba(70, 70, 70, 0.75);}}
     @media (max-width: 1199.98px) {
       .site-navbar .container-fluid {
         padding-left: 15px;
