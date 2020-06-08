@@ -851,7 +851,10 @@ h1, h2, h3, h4 {
       transition: .3s all ease-in-out; }
   .item .item-wrap {
     display: block;
-    position: relative; }
+    position: relative; 
+    width: 340px;
+    height: auto;
+    margin-bottom: 20px;}
     .item .item-wrap:after {
       z-index: 2;
       position: absolute;
