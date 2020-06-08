@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700");
+@font-face {
+  font-family: "Bolina";
+  src: url("../fonts/Bolina.otf");
+}
+
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
@@ -419,18 +424,18 @@ h1, h2, h3, h4 {
 
 .text-black {
   color: #000 !important; }
-
 .home-section {
-  position: relative; }
-  .home-section h1 {
-    font-size: 4.5rem;
+  position: relative;}
+  .home-section h1 {     
+    font-family: "Bolina";
+    font-size: 10.5rem;
     color: #fff;
     font-weight: 200;
-    letter-spacing: .2rem;
-    text-transform: uppercase; }
+    letter-spacing: .2rem; }
     @media (max-width: 991.98px) {
       .home-section h1 {
-        font-size: 2.5rem; } }
+        font-size: 9rem; } }
+    
   .home-section p {
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.6); }
