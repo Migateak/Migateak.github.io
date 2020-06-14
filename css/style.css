@@ -170,7 +170,8 @@
           transform: scale(1); }
 
 .site-mobile-menu {
-  width: 300px;
+  font-size:5rem;
+  /* width: 300px; */
   position: fixed;
   right: 0;
   z-index: 2000;
@@ -435,6 +436,9 @@ h1, h2, h3, h4 {
     @media (max-width: 991.98px) {
       .home-section h1 {
         font-size: 9rem; } }
+    @media (max-width: 590px) {
+      .home-section h1{
+        font-size: 5rem; } }     
     
   .home-section p {
     font-size: 1.2rem;
@@ -508,10 +512,10 @@ h1, h2, h3, h4 {
         max-width: 400px;
         position: relative; } }
   .img-overlap .img-1 {
-    top: 0; }
+    top: 0; 
+    right: +10%; }
   .img-overlap .img-2 {
-    bottom: -20%;
-    right: -10%; }
+    bottom: -20%; }
     @media (max-width: 991.98px) {
       .img-overlap .img-2 {
         bottom: 30%; } }
