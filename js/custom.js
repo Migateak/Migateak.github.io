@@ -155,7 +155,23 @@ jQuery(function($) {
 	stickyFillInit();
 
 
-	// navigation
+// navigation
+  var OnePageNavigation = function() {
+    var navToggler = $('.site-menu-toggle');
+   	$("body").on("click", ".smoothscroll[href^='#']", function(e) {
+      e.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        'scrollTop': $(hash).offset().top
+      }, 600, 'easeInOutCirc', function(){
+        window.location.hash = hash;
+      });
+
+    });
+  };
+//   navigation
 //   var OnePageNavigation = function() {
 //     var navToggler = $('.site-menu-toggle');
 //    	$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a", function(e) {
@@ -171,6 +187,7 @@ jQuery(function($) {
 
 //     });
 //   };
+
   OnePageNavigation();
 
   var counterInit = function() {
