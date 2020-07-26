@@ -423,6 +423,10 @@ h1, h2, h3, h4 {
   position: relative;
   z-index: 2; }
 
+.site-sectionb {
+  position: relative;
+  z-index: 2; }
+
 .text-black {
   color: #000 !important; }
 .home-section {
